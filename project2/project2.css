@@ -1,0 +1,222 @@
+body{
+  font-family: Arial, Helvetica;
+}
+
+nav {
+  background-color: #bcf7f5;
+  overflow: auto;
+}
+
+nav li a {
+  display:block;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #969696;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float:left;
+  display:inline;
+}
+
+#current{
+  background-color: #26b2f5;
+}
+
+body{
+  width: 1200px;
+  margin: auto;
+}
+
+#bannerImage {
+  background-image: url("banner (2).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+#bannerText {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main{
+  background-color: white;
+}
+
+body{
+  background-color: gainsboro;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+h1{
+  font-size: 340%;
+}
+
+#row1{
+  display: grid;
+  grid-template-columns: 0.5fr auto;
+  grid-template-rows: auto;
+}
+
+.cover{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin: 1.2rem 2rem 0.5rem 1.5rem;
+  height: 400px;
+  width: 300px;
+}
+
+#images{
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+#description{
+  grid-columns: 2/4;
+  grid-row: 1/2;
+  margin:1rem;
+}
+
+#star{
+  height: 40px;
+  width: 200px;
+  grid-column: 2/3;
+}
+
+#rating{
+  display:grid;
+  grid-template-columns: 0.35fr 1fr;
+}
+
+#description h2{
+  margin: 1rem 1rem 1rem 0rem;
+  font-size:200%;
+}
+
+#star{
+  margin: 0.81rem 1rem 0rem 0rem;
+}
+
+h2{
+  margin: 1rem 1rem 0rem 1rem;
+  font-size: 220%;
+}
+
+#description .seasons{
+  margin: 1rem 1rem 1rem 0rem;
+}
+
+#description a{
+  text-decoration: none;
+  background-color: white;
+  color:#2196f3;
+  padding: 0.5rem 1rem;
+  border: 2px solid #03a9f4a3;
+  display: inline-block;
+  margin: 0.5rem 0.5rem 1rem 0rem;
+  font-size: 110%;
+}
+
+#description p{
+  margin: 0rem 1rem 1rem 0rem;
+}
+
+#description #music{
+  margin: 2.5rem 0rem 1rem 0rem;
+}
+
+#description table{
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+#description td{
+  padding: 0rem 1.3rem 0.5rem 0rem;
+}
+
+#description li{
+  padding: 0.2rem 0rem;
+}
+
+#description a:hover{
+  background-color: #03a9f4a3;
+  color: white;
+  transition-duration:0.4s;
+}
+
+#description .song{
+  background-color: white;
+  border: 2px #009688b5 solid;
+  color:#009688;
+  font-size: 100%;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+#description .song:hover{
+  background-color:#009688b5;
+  color:white;
+}
+
+#characters{
+  display: grid;
+  grid-template-rows: auto;
+}
+
+#character1{
+  margin: 1rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 0.3fr auto;
+  background-color: #2196f3e0;
+  border: 2px #2196f3 solid;
+}
+
+#character2{
+  margin: 1rem;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 0.3fr auto;
+  background-color: #00bcd4cf;
+  border: 2px #00bcd4 solid;
+}
+
+#character3{
+  margin: 1rem;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 0.3fr auto;
+  background-color: #e91e63c2;
+  border: 2px #e91e63 solid;
+}
+
+.characterPic{
+  height: 400px;
+  margin: 1rem;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.word{
+  grid-column: 2/3;
+  display: inline-block;
+  margin: 3rem 1.5rem 3rem 0.5rem;
+}
+
